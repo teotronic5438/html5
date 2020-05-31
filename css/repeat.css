@@ -1,0 +1,12 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    /* Supongamos que queremos 6 columnas, en vez de poner 6 veces 1fr usamos repeat*/
+    /* grid-template-columns: repeat(6, 1fr);
+     repeat (numero_veces_repetir, fraccion_division)
+        Otra opcion si quiero que la primera mida especial*/
+    grid-template-columns: 200px repeat(4, 1fr) 200px; 
+    
+    grid-template-rows: repeat(3, 1fr);
+
+}
